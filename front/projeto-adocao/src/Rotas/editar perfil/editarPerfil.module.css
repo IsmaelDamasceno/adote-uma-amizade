@@ -1,0 +1,75 @@
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-position-x: -25%;
+    background-color: #427cc9;
+}
+.cadastro {
+    width: 40%;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 25px;
+
+    background-color: #463acc;
+}
+.cadastro h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.cadastro h1, h3 {
+    color: white;
+}
+.cadastro h3 {
+    width: 100%;
+}
+.input {
+    all: unset;
+    caret-color: white;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 4px 0;
+
+    padding: 12px 2px;
+    border: 0;
+
+    border-bottom: 1px dashed rgb(213, 196, 214);
+    transition: .12s;
+}
+.input:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: .12s;
+}
+.textCenter {
+    text-align: center;
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 4px 0;
+
+    border: 0;
+
+    padding: 16px 64px;
+
+    border-radius: 16px;
+    
+    color: black;
+    
+    cursor: pointer;
+    
+    background-color: rgb(255, 255, 255);
+    transition: 0.15s;
+}
+.button:hover {
+    background-color: #ddff8c;
+    transition: 0.15s;
+}

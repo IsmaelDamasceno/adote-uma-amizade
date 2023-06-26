@@ -1,0 +1,55 @@
+
+.navbar {
+    background-color: rgb(63, 19, 53);
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2vh 5vw;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active, .inactive {
+    all: unset;
+    color: white;
+    font-size: 1.75rem;
+    padding: 16px;
+
+    border-bottom: 3px solid rgba(62, 255, 142, 0);
+    transition: .15s;
+}
+.active {
+    border-bottom: 3px solid rgb(62, 255, 142);
+    transition: .15s;
+    cursor: default;
+}
+
+
+.inactive:hover {
+    color: rgb(62, 255, 142);
+    transition: .15s;
+    cursor: pointer;
+}
+
+.profile {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 100%;
+    background-color: rgb(90, 94, 151);
+    padding: 8px;
+    
+    cursor: pointer;
+
+    transition: .15s;
+    fill: white;
+}
+.profile:hover {
+    transition: .15s;
+    transform: scale(1.1);
+
+    background-color: rgb(117, 122, 187);
+    fill: rgb(124, 255, 152);
+}
+

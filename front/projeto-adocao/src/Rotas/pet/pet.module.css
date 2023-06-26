@@ -1,0 +1,66 @@
+
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    margin: 32px 0;
+
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container p {
+    color: white;
+}
+
+.button {
+    all: unset;
+    box-sizing: border-box;
+    margin: 4px 0;
+
+    border: 0;
+
+    padding: 16px 64px;
+
+    border-radius: 16px;
+    
+    color: black;
+    
+    cursor: pointer;
+    
+    background-color: rgb(255, 255, 255);
+    transition: 0.15s;
+}
+.button:hover {
+    background-color: #ddff8c;
+    transition: 0.15s;
+}
+
+.info {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: rgb(172, 176, 189);
+    padding: 16px;
+}
+.info .infoLeft, .infoRight {
+    width: 49.5%;
+}
+.info h1, .info h2, .info h3, .info h4, .info h5, .info h6, .info p {
+    color: black;
+}
+.info .dado {
+    padding: 6px;
+    background-color: rgb(152, 155, 167);
+}
+
+.image {
+    object-fit: cover;
+    width: 55%;
+    height: auto;
+}

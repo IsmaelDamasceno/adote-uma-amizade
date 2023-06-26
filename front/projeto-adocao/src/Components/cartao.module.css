@@ -1,0 +1,48 @@
+.postagem {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+
+    padding: 12px;
+    margin: 8px;
+    
+    cursor: pointer;
+    
+    border: 2px solid rgba(0, 0, 0, 0);
+
+    background-color: #eee1e6;
+    transition: .15s;
+}
+.postagem:hover {
+    background-color: #ffffff;
+    border: 2px solid #280e54;
+    transition: .15s;
+}
+.postagem h1, h2, h3, h4, h5, h6, p {
+    margin: 8px;
+}
+
+.postagem img {
+    object-fit: cover;
+    height: 50vh;
+
+    filter: brightness(80%);
+    transition: .15s;
+}
+.postagem:hover img {
+    filter: brightness(100%);
+    transition: .15s;
+}
+.postagem h3, h4 {
+    color: black;
+}
+.postagem h3 {
+    font-size: 2.25rem;
+}
+.postagem h4 {
+    font-size: 1.75rem;
+}
+.centro {
+    width: 100%;
+    text-align: center;
+}

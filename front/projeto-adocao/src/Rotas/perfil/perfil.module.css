@@ -1,0 +1,109 @@
+
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    margin: 32px 0;
+
+    align-items: center;
+    box-sizing: border-box;
+}
+.textCenter {
+    text-align: center;
+}
+
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container p {
+    color: white;
+} 
+
+.username {
+    color: #ddff8c;
+}
+.info {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: rgb(172, 176, 189);
+    padding: 16px;
+}
+.info .infoLeft, .info .infoRight {
+    width: 49.5%;
+}
+.info h1, .info h2, .info h3, .info h4, .info h5, .info h6, .info p {
+    color: black;
+}
+.info .dado {
+    padding: 6px;
+    background-color: rgb(152, 155, 167);
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 4px 0;
+
+    border: 0;
+
+    padding: 16px 64px;
+
+    border-radius: 16px;
+    
+    color: black;
+    
+    cursor: pointer;
+    
+    background-color: rgb(255, 255, 255);
+    transition: 0.15s;
+}
+.button:hover {
+    background-color: #ddff8c;
+    transition: 0.15s;
+}
+
+.confirmModal[open] {
+    border: 0;
+    background-color: #46091c;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.confirmModal[open] h1, .confirmModal[open] h2 {
+    color: white;
+    text-align: center;
+}
+.confirmModal[open] button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+}
+.confirmModal[open] .modalConfirmar {
+    transition: .15s;
+    background-color: #920a0a6b;
+}
+.confirmModal[open] .modalConfirmar:hover {
+    transition: .15s;
+    background-color: #920a0a23;
+}
+.confirmModal[open] .modalCancelar {
+    transition: .15s;
+    background-color: #771c68;
+}
+.confirmModal[open] .modalCancelar:hover {
+    transition: .15s;
+    background-color: #771c689a;
+}
+
+
+.confirmModal[open] .modalBody {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}

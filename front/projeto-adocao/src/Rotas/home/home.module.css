@@ -1,0 +1,42 @@
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.loginModal[open] {
+    border: 0;
+    background-color: #46091c;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginModal[open] h1, h2 {
+    color: white;
+    text-align: center;
+}
+.loginModal[open] button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+}
+.loginModal[open] .modalOk {
+    transition: .15s;
+    background-color: #771c68;
+}
+.loginModal[open] .modalOk:hover {
+    transition: .15s;
+    background-color: #771c689a;
+}
+
+.loginModal[open] .modalBody {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
